@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List (JS)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="card">
+        <header class="header">
+          <h1 class="title">To-do List</h1>
+          <p class="subtitle">Projeto em JavaScript com localStorage</p>
+        </header>
+
+        <form id="task-form" class="form">
+          <input
+            id="task-input"
+            type="text"
+            placeholder="Digite uma tarefa..."
+            autocomplete="off"
+          />
+          <button id="add-btn" type="submit">Adicionar</button>
+        </form>
+
+       
+        <nav class="filters">
+          <button class="filter-btn active" data-filter="all" type="button">
+            Todas
+          </button>
+          <button class="filter-btn" data-filter="todo" type="button">
+            Pendentes
+          </button>
+          <button class="filter-btn" data-filter="done" type="button">
+            Concluídas
+          </button>
+        </nav>
+
+        <div class="info">
+          <span id="counter">0 pendentes</span>
+          <button id="clear-done" type="button">Limpar concluídas</button>
+        </div>
+
+       
+        <ul id="task-list" class="list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
