@@ -2,8 +2,7 @@
 
 Aplicação de lista de tarefas desenvolvida com **HTML, CSS e JavaScript puro**, com persistência via **localStorage**, filtros e **edição inline**.
 
-## 🔗 Demo
-Acesse: https://felipe-durval.github.io/todo-js/
+
 
 Preview
 ![Preview do projeto](assets/screenshot.png)
