@@ -1,9 +1,9 @@
-# ✅ To-do List (JavaScript)
+#  To-do List (JavaScript)
 
 Aplicação de lista de tarefas desenvolvida com **HTML, CSS e JavaScript puro**, com persistência via **localStorage**, filtros e **edição inline**.
 
 ## 🔗 Demo
-Acesse: https://SEU_USUARIO.github.io/todo-js/
+Acesse: https://felipe-durval.github.io/todo-js/
 
 Preview
 ![Preview do projeto](assets/screenshot.png)
@@ -25,4 +25,4 @@ Preview
 ##  Como rodar localmente
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/todo-js.git
+   git clone https://github.com/felipe-durval/todo-js.git
